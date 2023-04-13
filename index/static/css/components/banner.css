@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .banner__titulo{
@@ -43,4 +43,40 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.banner__content--no-bg{
+    background-color: transparent;
+    border-radius: 0;
+    height: 4.4rem;
+}
+
+.input__group{
+    width: 50%;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.input{
+    border: 0;
+    outline: none;
+    width: 85%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #dedede;
+}
+
+.button{
+    border: 0;
+    outline: none;
+    background-color: var(--primary);
+    width: 15%;
+    color: white;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }

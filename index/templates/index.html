@@ -15,9 +15,30 @@
             350 Reasearch Articles | +50 Commercial Brochures | 1,587 References | +300 Formulas | +1000 Benefits
         </div>
 
+        <div class="banner__content banner__content--no-bg">
+            <div class="input__group">
+                <input type="text" class="input">
+                <button type="button" class="button">Search</button>
+
+            </div>
+        </div>
+
     </div>
 
-    <h1>{{ title }}</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit omnis quia vero, non illo ea fugit repellendus. Nihil ut eaque ex reiciendis cumque dolores eius illo quisquam dolorum, soluta reprehenderit!</p>
+    <div class="container">
+
+        {% for link in links %}
+
+            <div class="container__card">
+                <a class="container__link" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+            </div>
+
+        {% endfor %}
+
+        
+
+    </div>
+
+    
 
 {% endblock %}

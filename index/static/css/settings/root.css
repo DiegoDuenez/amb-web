@@ -9,6 +9,7 @@
 
 :root{
 
+    --primary: #007bff;
     --fs-titulos: 2rem;
     --fs-titulos-lg: 3rem;
     --fs-textos: 1.2rem;
@@ -33,7 +34,6 @@
         -webkit-padding-start: 0px;
     letter-spacing: 0.1rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
 }
 
 p{
