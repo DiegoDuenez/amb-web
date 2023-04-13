@@ -1,0 +1,16 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Index)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+.proyectos{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--blanco);
+    gap: 5rem;
+}
